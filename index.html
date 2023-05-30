@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./common.css" rel="stylesheet" type="text/css">
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <script src="./record_class.js"></script>
+    <script src="./db.js"></script>
+    <script src="./services.js"></script>
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="wrap">
+        <ul class="ul_diary">
+            
+            <!-- <div>
+                <ul>
+                    <li class="item_user">aaa</li>
+                    <li class="item_txt">12353425</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="item_user">aaa</li>
+                    <li class="item_txt">12353425</li>
+                </ul>
+            </div> -->
+        </ul>
+        
+
+        <div class="input_diary">
+            <input type="text" class="diary_content write" placeholder="일기 입력">
+            <button class="send">입력</button>
+        </div>
+
+        <ul class="ul_show">
+            <li>
+                <div class="all_diary">
+                    <button class="mem">전체 회원 보기</button>
+                    <button class="all">전체 일기 보기</button>
+                </div>
+            </li>
+            <li>
+                <div class="show_my_diary">
+                    <button class="mine">내 일기 보기</button>
+                </div>
+            </li>
+            
+        </ul>
+        
+        <div class="login">
+            <ul>
+                <li>
+                    <button class="create_user">회원가입</button>
+                </li>
+                <li>
+                    <button class="login_user">로그인</button>
+                </li>
+                
+                <li>
+                    <div class="login_box">example</div>
+                </li>
+            </ul>       
+        </div>
+
+    </div>
+
+    
+    
+
+    
+</body>
+</html>
+
+<template id="diary_item">
+    <div>
+        <ul>
+            <li class="item_user"></li>
+            <li class="item_txt"></li>
+        </ul>
+    </div>
+</template>

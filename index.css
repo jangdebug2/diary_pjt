@@ -1,0 +1,101 @@
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#wrap .ul_diary li{
+    float: left;
+}
+
+/* ul_diary START */
+#wrap ul.ul_diary{
+    width: 900px;
+    height: 300px;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+#wrap .ul_diary div{
+    margin: 5px;
+}
+#wrap .ul_diary .item_user{
+    float: left;
+    padding: 10px;
+    border: 1px solid #dadada;
+    font-size: 1.2em;
+    width: 100px;
+    border-radius: 5px;
+}
+#wrap .ul_diary .item_txt{
+    float: right;
+    padding: 10px;
+    border: 1px solid #dadada;
+    font-size: 1.2em;
+    width: 650px;
+    border-radius: 5px;
+}
+/* ul_diary END */
+
+/* input_diary START */
+#wrap .input_diary{
+    margin: 15px;
+    text-align: center;
+}
+#wrap .input_diary .diary_content{
+    width: 700px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#wrap .input_diary .send{
+    padding: 10px;
+    border-radius: 5px;
+}
+#wrap .input_diary .send:hover{
+    cursor: pointer;
+    background-color: #dadada;
+}
+/* input_diary END */
+
+/* ul_float START */
+#wrap .ul_show{
+    width: 800px;
+    margin: 20px;
+}
+#wrap .ul_show li{
+    float:right;
+    margin: 0 10px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+#wrap .ul_show li div button{
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* ul_float END */
+
+/* login START */
+#wrap .login ul{
+    width: 800px;
+    margin: 0 auto;
+}
+#wrap .login ul li{
+    float: right;
+    margin: 10px;
+}
+#wrap .login button,
+#wrap .login div{
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+#wrap .login .login_box{
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1.2em;
+}
+/* login END */
